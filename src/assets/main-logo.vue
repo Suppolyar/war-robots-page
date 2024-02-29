@@ -1,5 +1,5 @@
 <template>
-  <svg class="object-cover max-w-[600px]" width="600.000000" height="281.000000" viewBox="0 0 676 281" fill="none"
+  <svg class="" width="676.000000" height="281.000000" viewBox="0 0 676 281" fill="none"
        xmlns="http://www.w3.org/2000/svg"
        xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>

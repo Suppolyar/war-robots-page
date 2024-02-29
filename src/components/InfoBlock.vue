@@ -1,5 +1,5 @@
 <template>
-  <div :class="setCurrentBlockSize()" class="border border-white backdrop-blur-xs px-10 py-6 text-white text-lg">
+  <div :class="setCurrentBlockSize()" class="border tracking-[0] border-white backdrop-blur-xs px-[30px] py-5 text-white text-base leading-[140%]">
     <slot />
   </div>
 </template>
@@ -12,7 +12,7 @@ const props = defineProps<{
 const setCurrentBlockSize = () => {
   switch (props.size) {
     case "medium":
-      return "max-w-[470px]";
+      return "max-w-[438px]";
     case "large":
       return "max-w-[522px]";
   }
