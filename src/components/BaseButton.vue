@@ -1,7 +1,7 @@
 <template>
   <button
     @click="onBtnClick"
-    class="border-yellow border-2 py-7 px-20 text-white text-[33px] uppercase font-bold hover:bg-yellow hover:border-white transition-colors duration-300 hover:scale-105 transition duration-150"
+    class="border-yellow border-2 py-7 px-20 text-white text-[33px] uppercase font-bold hover:bg-yellow hover:border-white transition duration-150 hover:scale-105"
   >
     Скачать
   </button>
