@@ -5,14 +5,14 @@
     >
       <MyGamesLogo class="absolute right-[80px] top-[80px]" />
       <div
-        class="flex h-full flex-col items-center justify-center gap-5 py-16 text-lg 2xl:gap-4"
+        class="flex h-full flex-col items-center justify-center gap-10 py-16 text-lg pb-40 tracking-normal	"
       >
         <MainLogo />
 
         <BaseButton />
 
         <InfoBlock size="medium">
-          Скачивая MY.GAMES Launcher вы соглашаетесь с
+          Скачивая <span class="font-bold text-yellow">MY.GAMES Launcher</span>, вы соглашаетесь с
           передачей
           ваших данных компании MY.GAMES B.V. и их обработкой согласно
           <a class="underline" href="https://documentation.my.games/terms/mygames_privacy" target="_blank">Политике

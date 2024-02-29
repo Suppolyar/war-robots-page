@@ -1,7 +1,7 @@
 <template>
   <button
     @click="onBtnClick"
-    class="border-yellow border-2 py-6 px-20 text-white text-[33px] uppercase font-bold hover:bg-yellow hover:border-white transition-colors duration-300"
+    class="border-yellow border-2 py-7 px-20 text-white text-[33px] uppercase font-bold hover:bg-yellow hover:border-white transition-colors duration-300 hover:scale-105 transition duration-150"
   >
     Скачать
   </button>
@@ -14,8 +14,8 @@ defineOptions({
 
 const onBtnClick = () => {
   window.__GEM.detectAndDownload(
-    "13.2013983",
-    "https://static.gc.my.games/HawkedLoader.exe"
+    "0.2002140",
+    "https://static.gc.my.games/WarRobotsLoader.exe"
   );
 };
 </script>

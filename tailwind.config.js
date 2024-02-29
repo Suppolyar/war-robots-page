@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        'logo-screen': {'raw': '(max-height: 860px)'}
+        'logo-screen': {'raw': '(max-height: 800px)'}
       },
       backgroundImage: {
         "war-robots": "url('@/assets/bg.jpeg')",
